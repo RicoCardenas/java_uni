@@ -27,8 +27,9 @@ public class Register {
         do {
             System.out.println("1. Agregar un usuario");
             System.out.println("2. Ver usuarios");
-            System.out.println("3. Verificar si el usurio puede votar");
+            System.out.println("3. Verificar si el usuario puede votar");
             System.out.println("0. Salir");
+            System.out.println("\nSeleccione una opcion: ");
             opcion = sc.nextInt();
             sc.nextLine();
 
