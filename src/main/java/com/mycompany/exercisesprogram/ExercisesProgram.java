@@ -25,13 +25,15 @@ public class ExercisesProgram {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-
         int opcion = 0;
 
         do{
             System.out.println("Que ejercicio quieres mirar?");
             System.out.println("1. Ejercicio 1");
             System.out.println("2. Ejercicio 2");
+            System.out.println("3. Ejercicio 3");
+            System.out.println("4. Ejercicio 4");
+            System.out.println("5. Tablas de multiplicar");
             System.out.println("0. Salir");
             
             System.out.println("Seleccion la opcion");
@@ -40,22 +42,36 @@ public class ExercisesProgram {
 
             switch (opcion) {
                 case 1:
-                    // Crea una instancia de la clase Register y llama a su método register
-                    Register ejercicio2 = new Register();
-                    ejercicio2.register();
-                    break;
-                case 2:
+                    System.out.println("Ejercicio 1");
                     // Crea una instancia de la clase Numbers y llama a su método numbers
                     Numbers ejercicio1 = new Numbers();
                     ejercicio1.numbers();
                     break;
+                case 2:
+                    // Crea una instancia de la clase Register y llama a su método register
+                    Register ejercicio2 = new Register();
+                    ejercicio2.register();
+                    break;
+                case 3:
+                    ContarNumeros ejercicio3 = new ContarNumeros();
+                    ejercicio3.contar();
+                    break;
+                case 4:
+                    Notas ejercicio4 = new Notas();
+                    ejercicio4.notas();
+                    break;
+                case 5:
+                    TablasMultiplicar ejercicio5 = new TablasMultiplicar();
+                    ejercicio5.tablas();
+                    break;
                 case 0:
-                    System.out.println("Muchas Gracias putito");
+                    System.out.println("Muchas Gracias");
                     break;
                 default:
+                    System.out.println("Opcion no valida");
                     break;
             }
-            }while(opcion!=0);
-        sc.nextInt();
+            }while(opcion != 0);
+        sc.close();
     }
 }

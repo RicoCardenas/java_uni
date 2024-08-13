@@ -71,8 +71,5 @@ public class Register {
                     break;
             }
         } while (opcion != 0);
-
-        // Cierra el Scanner
-        sc.close();
     }
 }

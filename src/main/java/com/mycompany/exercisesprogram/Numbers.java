@@ -45,8 +45,5 @@ public class Numbers {
         System.out.println("Positivos: " + pos);
         System.out.println("Negativos: " + neg);
         System.out.println("Ceros: " + cero);
-
-        // Cierra el Scanner
-        sc.close();
     }
 }
