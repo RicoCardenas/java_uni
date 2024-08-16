@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.exercisesprogram;
+package com.mycompany.exercisesprogram.PrimeraSemana;
 
 import java.util.Scanner;
 
