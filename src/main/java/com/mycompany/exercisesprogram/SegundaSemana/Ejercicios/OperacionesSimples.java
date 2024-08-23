@@ -5,7 +5,7 @@ public class OperacionesSimples {
     private int num_2;
 
     // Constructor
-    OperacionesSimples(int num_1, int num_2){
+    public OperacionesSimples(int num_1, int num_2){
         this.num_1 = num_1;
         this.num_2 = num_2;
     }
